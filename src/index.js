@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import cssText from 'bundle-text:./index.css';
+import cssText from 'bundle-text:../dist/index.css';
 
 // inject <style> tag
 let style = document.createElement('style');
